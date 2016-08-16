@@ -27,6 +27,9 @@ void start() {
     char tempNameArray[100] = {'\0'};
     if (getStringFromUser(tempNameArray, 100, "What is your name?\n\n")) {
         name = @(tempNameArray);
+        if ([name containsString:@"\n"]) {
+            name = [name substringToIndex:[name length]-1];;
+        }
     }
     
     int counter = 3;
@@ -46,7 +49,7 @@ void start() {
         }
         
         if (counter == 0) {
-            NSLog(@"%@, you did not guess the right number. The right answer was %@\n", name, randomNumber);
+            NSLog(@"%@, you did not guess the right number. The answer was %@\n", name, randomNumber);
         }
     }
 }
