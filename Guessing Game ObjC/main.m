@@ -28,7 +28,7 @@ void start() {
     if (getStringFromUser(tempNameArray, 100, "What is your name?\n\n")) {
         name = @(tempNameArray);
         if ([name containsString:@"\n"]) {
-            name = [name substringToIndex:[name length]-1];;
+            name = [name substringToIndex:[name length]-1];
         }
     }
     
