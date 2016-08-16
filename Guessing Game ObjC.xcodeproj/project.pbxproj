@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		334DA7081D625AC10050D7D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 334DA7071D625AC10050D7D8 /* main.m */; };
+		334DA70F1D6354590050D7D8 /* UserInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 334DA70E1D6354590050D7D8 /* UserInput.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		334DA7041D625AC10050D7D8 /* Guessing Game ObjC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Guessing Game ObjC"; sourceTree = BUILT_PRODUCTS_DIR; };
 		334DA7071D625AC10050D7D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		334DA70E1D6354590050D7D8 /* UserInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInput.m; sourceTree = "<group>"; };
+		334DA7101D6354810050D7D8 /* UserInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInput.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				334DA7071D625AC10050D7D8 /* main.m */,
+				334DA70E1D6354590050D7D8 /* UserInput.m */,
+				334DA7101D6354810050D7D8 /* UserInput.h */,
 			);
 			path = "Guessing Game ObjC";
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				334DA7081D625AC10050D7D8 /* main.m in Sources */,
+				334DA70F1D6354590050D7D8 /* UserInput.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
